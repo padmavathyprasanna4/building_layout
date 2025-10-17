@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+.top-navbar {
+      background-color: #1f3c5d;
+    }
+    .second-navbar {
+      background-color: #dce6ef;
+    }
+    .nav-link {
+      color: white !important;
+    }
+    .nav-link.active {
+      color: #00bcd4 !important;
+      font-weight: 600;
+    }
+    .navbar-toggler {
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    .form-control:focus {
+      box-shadow: none;
+    }
+    .location-icon {
+      color: red;
+      margin-right: 8px;
+    }
+    .navbar-nav{
+        padding-left: 40px;
+    }
+
+
+    @media (max-width: 768px) {
+      .top-navbar .search-bar,
+      .top-navbar .nav-icons {
+        margin-top: 10px;
+      }
+    }
+button {
+  border-radius: 10px !important;
+}
+
+.bg-light {
+  background-color: #8cb1e1 !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.position-relative .text-muted {
+  font-size: 12px;
+  cursor: pointer;
+}
+.form-control{
+    border: 1px solid black;
+}
+.btn-item{
+    background-color:#1f456e !important ;
+    color: #fff;
+}
+.text{
+    color:#0b1d34;
+}
+ .btn-steel {
+  background-color: #022c4f; /* SteelBlue */
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-steel:hover {
+  background-color: #3b6a96;
+}
+
+/*Footer*/
+    .footer {
+      background-color: #062940;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .payment-icons img {
+      height: 32px;
+      margin-right: 10px;
+    }
+    .footer hr {
+      border-top: 1px solid #ccc;
+      opacity: 0.2;
+    }
+    .social-icons i {
+      font-size: 20px;
+      margin-right: 15px;
+      color: white;
+    }
+   

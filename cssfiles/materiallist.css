@@ -1,0 +1,140 @@
+ body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+.top-navbar {
+    background-color: #1f3c5d;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: #00bcd4 !important;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.container {
+     margin-top: 50px;
+ }
+ .material-list-header {
+     font-size: 2rem;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+  .table {
+     background-color: #ffffff;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+     padding: 20px;
+     border-radius: 10px;
+ }
+ .table td, .table th {
+     vertical-align: middle;
+     padding: 20px;
+     text-align: left;
+          background-color: #05224e;
+ }
+.table th {
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #1f3c5d !important;
+    color: white !important;
+}
+ .table td {
+     font-size: 0.9rem;
+     color: lch(3.78% 0.69 19.31);
+ }
+ .table th {
+     font-weight: bold;
+     font-size: 1rem;
+     background-color: #1f3c5d;
+     color: white;
+
+ }
+
+ /* Image styling */
+ .material-img {
+     width: 50px;
+     margin-right: 15px;
+     border-radius: 8px;
+ }
+
+ /* Delete button styling */
+ .delete-btn {
+     color: red;
+     cursor: pointer;
+     font-size: 0.9rem;
+ }
+
+ /* Hover effect on rows */
+ .table tbody tr:hover {
+     background-color: #f9f9f9;
+ }
+
+ .card {
+     max-width: 500px;
+     margin: auto;
+     border: none;
+ }
+
+ input.form-control {
+     width: 130px;
+     font-size: 14px;
+     padding: 4px 10px;
+ }
+
+ .btn-item {
+     background: #1f3c5d;
+     color: #f8f9fa;
+ }
+
+ @media (max-width: 576px) {
+     .d-flex.gap-2 {
+         flex-direction: column;
+         align-items: flex-start;
+         width: 100%;
+     }
+
+     input.form-control {
+         width: 100%;
+     }
+
+     .btn-primary {
+         width: 100%;
+     }
+ }
+
+ /*Footer*/
+    .footer {
+      background-color: #062940;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .payment-icons img {
+      height: 32px;
+      margin-right: 10px;
+    }
+    .footer hr {
+      border-top: 1px solid #ccc;
+      opacity: 0.2;
+    }
+    .social-icons i {
+      font-size: 20px;
+      margin-right: 15px;
+      color: white;
+    }

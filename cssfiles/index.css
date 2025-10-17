@@ -1,0 +1,318 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+.top-navbar {
+      background-color: #1f3c5d;
+    }
+    .second-navbar {
+      background-color: #dce6ef;
+    }
+    .nav-link {
+      color: white !important;
+    }
+    .nav-link.active {
+      color: #00bcd4 !important;
+      font-weight: 600;
+    }
+    .navbar-toggler {
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    .form-control:focus {
+      box-shadow: none;
+    }
+    .location-icon {
+      color: red;
+      margin-right: 8px;
+    }
+    .navbar-nav{
+        padding-left: 40px;
+    }
+
+
+    @media (max-width: 768px) {
+      .top-navbar .search-bar,
+      .top-navbar .nav-icons {
+        margin-top: 10px;
+      }
+    }
+    .tmt-banner {
+      background: linear-gradient(to right, #088d4d, #50d49a);
+      border-radius: 20px;
+      color: white;
+      padding: 40px 30px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .tmt-banner img {
+      height: 200px;
+    }
+    .tmt-banner h5,
+    .tmt-banner h2 {
+      font-weight: bold;
+    }
+    .learn-more-btn {
+      background-color: white;
+      color: #088d4d;
+      font-weight: 600;
+      padding: 10px 25px;
+      border-radius: 12px;
+      margin-top: 20px;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+.materials-section {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.materials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.materials-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.view-all {
+  color: #1a4c74;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.material-card {
+  background-color: #1a4c74;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+
+}
+
+.material-card:hover {
+  transform: translateY(-5px);
+}
+
+.material-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.material-card p {
+  font-weight: bold;
+  margin: 0;
+  font-size: 16px;
+}
+.material-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* banner and brands*/
+ .promo-banner {
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+    .promo-left {
+      background-color: #d9534f; /* Red */
+    }
+    .promo-right {
+      background-color: #0275d8; /* Blue */
+    }
+ 
+    .brand-card {
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .brand-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .brand-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: c;
+      background-color: #fff;
+    }
+
+
+    @media (max-width: 768px) {
+      .brand-card img {
+        height: 140px;
+      }
+    }
+
+    /* ratings and testimonials */
+     .testimonial-section {
+      background-color: #d9e5f3;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .testimonial-section h2 {
+      font-weight: 700;
+      color: #1b2a4e;
+      margin-bottom: 40px;
+    }
+
+    /* Left Rating Box */
+    .rating-box {
+      background: #fff;
+      border-radius: 15px;
+      padding: 10px 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+      width: 120%;
+    }
+
+    .rating-value {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #1b2a4e;
+    }
+
+    .stars i {
+      color: #ffb400;
+      font-size: 1.5rem;
+    }
+
+    .rating-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 6px 0;
+    }
+
+    .progress {
+      flex: 1;
+      height: 10px;
+      margin: 0 10px;
+      background-color: #e9ecef;
+      border-radius: 10px;
+    }
+
+    .progress-bar {
+      background-color: #1b2a4e;
+      border-radius: 10px;
+    }
+
+    /* Right Carousel Card */
+    .review-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 30px 25px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      height: 100%;
+      max-width: 450px;
+      margin: 0 auto;
+    }
+
+    .review-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #ffb400;
+      padding: 5px;
+      object-fit: cover;
+    }
+
+    .review-card h5 {
+      font-weight: 600;
+      color: #1b2a4e;
+      margin-top: 15px;
+    }
+
+    .review-card p {
+      color: #333;
+      font-weight: 500;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+
+    .carousel-indicators [data-bs-target] {
+      background-color: #1b2a4e!important;
+    }
+
+    /*features*/
+    .feature-icon {
+      width: 120px;
+      height: auto;
+    }
+    .feature-text h5 {
+      font-weight: 700;
+    }
+    .feature-row {
+      margin-bottom: 60px;
+    }
+    @media (max-width: 767px) {
+      .feature-row {
+        text-align: center;
+      }
+      .feature-text {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+
+    /*Footer*/
+    .footer {
+      background-color: #062940;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .payment-icons img {
+      height: 32px;
+      margin-right: 10px;
+    }
+    .footer hr {
+      border-top: 1px solid #ccc;
+      opacity: 0.2;
+    }
+    .social-icons i {
+      font-size: 20px;
+      margin-right: 15px;
+      color: white;
+    }

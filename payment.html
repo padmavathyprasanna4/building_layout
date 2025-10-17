@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <link rel="stylesheet" href="cssfiles/payment.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+<!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+ <!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg top-navbar navbar-dark py-2">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="Buildingimages/logo.jpg" alt="Logo" height="30" class="me-2">
+      <strong>BuildMaadi</strong>
+    </a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Nav Links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link" href="material.html">Materials</a></li>
+        <li class="nav-item"><a class="nav-link" href="aiestimator.html">AI Estimator</a></li>
+        <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+      </ul>
+
+      <!-- Search + Icons -->
+      <div class="d-lg-flex align-items-center">
+        <form class="d-flex search-bar me-lg-3 mb-2 mb-lg-0" role="search">
+          <input class="form-control rounded-start " type="search" placeholder="Search products">
+          <button class="btn btn-light rounded-end" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+
+        <div class="nav-icons d-flex align-items-center">
+          <a href="materiallist.html" class="btn btn-link text-white me-2"><i class="bi bi-cart3 fs-5"></i></a>
+          <a href="" class="btn btn-link text-white"><i class="bi bi-person-circle fs-5"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<h4 class="fw-bold ms-5 mt-4">Select Payment Method</h4>
+  <div class="container py-3">
+    <div class="row">
+      
+      <!-- LEFT COLUMN -->
+      <div class="col-md-4">
+        <div class="sidebar">
+          <h5>Order Materials</h5>
+          <p>Ultratech Cement <span>20 Bag</span></p>
+          <p>White Cement <span>20 Bag</span></p>
+          <p>Stainless Steel</p>
+          <p>TMT Bar, 10 mm <span>2 Tonne</span></p>
+          <p>Red bricks <span>5 Tonne</span></p>
+          <p>Roofing Sheet <span>10 SQ.FT</span></p>
+        </div>
+
+        <div class="sidebar">
+          <h5>Materials Price</h5>
+          <p>Ultratech Cement <span>₹ 6,600</span></p>
+          <p>White Cement <span>₹ 5,100</span></p>
+          <p>Stainless Steel <span>-</span></p>
+          <p>TMT Bar, 10 mm <span>₹ 50,000</span></p>
+          <p>Red bricks <span>₹ 15,000</span></p>
+          <p>Roofing Sheet <span>₹ 3,800</span></p>
+          <hr>
+          <p><strong>Total Price</strong> <span><strong>₹ 80,500</strong></span></p>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-md-8">
+        <div>
+          <div class="payment-option">
+            <div class="d-flex align-items-center">
+              <input class="form-check-input me-3" type="radio" name="payment" id="paypal">
+              <img src="Buildingimages/paymentimages/paypal.png" alt="PayPal">
+              <label for="paypal" class="form-check-label">PayPal</label>
+            </div>
+          </div>
+
+          <div class="payment-option">
+            <div class="d-flex align-items-center">
+              <input class="form-check-input me-3" type="radio" name="payment" id="visa">
+              <img src="Buildingimages/paymentimages/visa.png" alt="Visa">
+              <label for="visa" class="form-check-label">************7870</label>
+            </div>
+          </div>
+
+          <div class="payment-option">
+            <div class="d-flex align-items-center">
+              <input class="form-check-input me-3" type="radio" name="payment" id="gpay">
+              <img src="Buildingimages/paymentimages/gpay.png" alt="Google Pay">
+              <label for="gpay" class="form-check-label">Google Pay</label>
+            </div>
+          </div>
+
+          <div class="payment-option">
+            <div class="d-flex align-items-center">
+              <input class="form-check-input me-3" type="radio" name="payment" id="cod">
+              <label for="cod" class="form-check-label">Cash on Delivery</label>
+            </div>
+          </div>
+
+          <div class="payment-option">
+            <div class="d-flex align-items-center">
+              <input class="form-check-input me-3" type="radio" name="payment" id="emi">
+              <img src="Buildingimages/paymentimages/emi.png" alt="EMI">
+              <label for="emi" class="form-check-label">EMI</label>
+            </div>
+          </div>
+
+          <!-- Add New Credit/Debit Card -->
+          <div class="card-section mt-3">
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="radio" name="payment" id="newcard">
+              <label class="form-check-label fw-semibold" for="newcard">
+                Add New Credit / Debit Card
+              </label>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Card holder name*</label>
+              <input type="text" class="form-control">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Card Number*</label>
+              <input type="text" class="form-control">
+            </div>
+
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label class="form-label">Expiry Date*</label>
+                <input type="text" class="form-control" placeholder="MM/YY">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">CVV*</label>
+                <input type="password" class="form-control" maxlength="3">
+              </div>
+            </div>
+            <a href ="orderid2.html"><button class="btn btn-custom w-100 py-2">Pay Now</button></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--footer-->
+  <footer class="footer mt-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Address -->
+      <div class="col-md-3 mb-4">
+        <img src="Buildingimages\logo.jpg" alt="BuildMaadi Logo" style="height: 40px;">
+        <h5 class="mt-2">BuildMaadi</h5>
+        <p>
+          Gardens Lane, Hi-Tech City,<br>
+          Madhapur, Hyderabad-500081
+        </p>
+      </div>
+
+      <!-- Information Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">AI Estimator</a></li>
+        </ul>
+      </div>
+
+      <!-- Policy Links -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Policy</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- My Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">My Account</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">My order</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Contact With Us</h6>
+        <p><i class="fas fa-phone"></i> +91 9876543204</p>
+        <p><i class="fas fa-envelope"></i> Info@BuildMaadi.in</p>
+      </div>
+
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr class="my-3">
+
+    <!-- Payment Section -->
+    <div class="row align-items-center mb-3">
+      <div class="col-md-6">
+        <h6 class="fw-bold">Payment</h6>
+        <div class="payment-icons mt-2">
+          <img src="https://img.icons8.com/color/48/000000/google-pay-india.png" alt="GPay">
+          <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="MasterCard">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+          <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+          <img src="https://img.icons8.com/color/48/000000/rupay.png" alt="RuPay">
+          <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="ApplePay">
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 text-md-end text-center mt-4 mt-md-0">
+        <h6 class="fw-bold me-5">Follow Us on</h6>
+        <div class="social-icons mt-2">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+

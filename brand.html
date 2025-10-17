@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive BuildMaadi Navbar</title>
+  <link rel="stylesheet" href="cssfiles/brand.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+<!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg top-navbar navbar-dark py-2">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="Buildingimages/logo.jpg" alt="Logo" height="30" class="me-2">
+      <strong>BuildMaadi</strong>
+    </a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Nav Links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link" href="material.html">Materials</a></li>
+        <li class="nav-item"><a class="nav-link" href="aiestimator.html">AI Estimator</a></li>
+        <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+      </ul>
+
+      <!-- Search + Icons -->
+      <div class="d-lg-flex align-items-center">
+        <form class="d-flex search-bar me-lg-3 mb-2 mb-lg-0" role="search">
+          <input class="form-control rounded-start " type="search" placeholder="Search products">
+          <button class="btn btn-light rounded-end" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+
+        <div class="nav-icons d-flex align-items-center">
+          <a href="materiallist.html" class="btn btn-link text-white me-2"><i class="bi bi-cart3 fs-5"></i></a>
+          <a href="login.html" class="btn btn-link text-white"><i class="bi bi-person-circle fs-5"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+    
+    <!-- Sections Template -->
+    <!-- Use same image rows for demo, update images later -->
+
+    <!-- Cement Section -->
+    <div class="category-title">Cement</div>
+    <div class="row">
+        <!-- 8 images -->
+        <!-- Repeat block -->
+        <!-- Replace src/alt if needed -->
+        <!-- START brand block -->
+        <!-- You can turn this into a loop with backend or JS later -->
+        <div class="col-6 col-md-2">
+            <a href = "ultratech.html"><div class="brand-logo"><img src="Buildingimages/brandimages/brand1.jpg" alt="Ultratech"></div></a>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand2.jpg" alt="ACC Cement"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand3.jpg" alt="Ambuja Cement"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand4.jpg" alt="JK Cement"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand5.jpg" alt="Ramco Cement"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand6.jpg" alt="Binani Cement"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand7.jpg" alt="Shree Cement"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand8.jpg" alt="JSW Cement"></div>
+        </div>
+    </div>
+
+    <!-- Steel Section -->
+    <div class="category-title">Steel</div>
+    <div class="row">
+        <!-- Repeat brand block -->
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand9.jpg" alt="Baowu Steel"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand10.jpg" alt="TATA Steel"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand17.jpg" alt="JSW Steel"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand12.jpg" alt="Jindal Steel"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand13.jpg" alt="Visa Steel"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand14.jpg" alt="Vizag Steel"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand15.jpg" alt="Vedanta"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand16.jpg" alt="ESL Steel"></div>
+        </div>
+    </div>
+
+    <!-- Bricks Section -->
+    <div class="category-title">Bricks</div>
+    <div class="row">
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand17.jpg" alt="Brand 1"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand18.jpg" alt="Brand 2"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand19.jpg" alt="Brand 3"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand20.jpg" alt="Brand 4"></div>
+        </div>
+
+    </div>
+
+    <!-- Glass Panels Section -->
+    <div class="category-title">Glass Panels</div>
+    <div class="row">
+        <!-- same brand images -->
+        <!-- Replace src if needed -->
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand21.jpg" alt="Paint Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand22.jpg" alt="Paint Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand23.jpg" alt="Paint Brand"></div>
+        </div>
+        <!-- ... repeat other logos ... -->
+    </div>
+
+    <!-- Plumbing Section -->
+    <div class="category-title">Plumbing Materials</div>
+    <div class="row">
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand24.jpg" alt="Plumbing Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand25.jpg" alt="Plumbing Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand26.jpg" alt="Plumbing Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand27.jpg" alt="Plumbing Brand"></div>
+        </div>
+
+    </div>
+
+    <!-- Electrical Section -->
+    <div class="category-title">Electrical Supplies</div>
+    <div class="row">
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand28.jpg" alt="Electrical Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand29.jpg" alt="Electrical Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand30.jpg" alt="Electrical Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand31.jpg" alt="Electrical Brand"></div>
+        </div>
+        <!-- ... repeat as needed ... -->
+    </div>
+
+    <!-- Sanitary Section -->
+    <div class="category-title">Roofing Materials</div>
+    <div class="row">
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand32.jpg" alt="Sanitary Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand33.jpg" alt="Sanitary Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand34.jpg" alt="Sanitary Brand"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand35.jpg" alt="Sanitary Brand"></div>
+        </div>
+        <!-- ... repeat as needed ... -->
+    </div>
+
+    <!-- Paint Section -->
+    <div class="category-title">Paints</div>
+    <div class="row mb-5">
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand36.jpg" alt="Wood Brand 1"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand37.jpg" alt="Wood Brand 2"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand38.jpg" alt="Wood Brand 3"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand39.jpg" alt="Wood Brand 4"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand40.jpg" alt="Wood Brand 5"></div>
+        </div>
+        <div class="col-6 col-md-2">
+            <div class="brand-logo"><img src="Buildingimages/brandimages/brand41.jpg" alt="Wood Brand 6"></div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Address -->
+      <div class="col-md-3 mb-4">
+        <img src="Buildingimages\logo.jpg" alt="BuildMaadi Logo" style="height: 40px;">
+        <h5 class="mt-2">BuildMaadi</h5>
+        <p>
+          Gardens Lane, Hi-Tech City,<br>
+          Madhapur, Hyderabad-500081
+        </p>
+      </div>
+
+      <!-- Information Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">AI Estimator</a></li>
+        </ul>
+      </div>
+
+      <!-- Policy Links -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Policy</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- My Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">My Account</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">My order</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Contact With Us</h6>
+        <p><i class="fas fa-phone"></i> +91 9876543204</p>
+        <p><i class="fas fa-envelope"></i> Info@BuildMaadi.in</p>
+      </div>
+
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr class="my-3">
+
+    <!-- Payment Section -->
+    <div class="row align-items-center mb-3">
+      <div class="col-md-6">
+        <h6 class="fw-bold">Payment</h6>
+        <div class="payment-icons mt-2">
+          <img src="https://img.icons8.com/color/48/000000/google-pay-india.png" alt="GPay">
+          <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="MasterCard">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+          <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+          <img src="https://img.icons8.com/color/48/000000/rupay.png" alt="RuPay">
+          <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="ApplePay">
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 text-md-end text-center mt-4 mt-md-0">
+        <h6 class="fw-bold me-5">Follow Us on</h6>
+        <div class="social-icons mt-2">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

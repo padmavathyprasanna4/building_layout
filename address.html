@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Address</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cssfiles/address.css">
+    <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg top-navbar navbar-dark py-2">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="Buildingimages/logo.jpg" alt="Logo" height="30" class="me-2">
+      <strong>BuildMaadi</strong>
+    </a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Nav Links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Materials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">AI Estimator</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+      </ul>
+
+      <!-- Search + Icons -->
+      <div class="d-lg-flex align-items-center">
+        <form class="d-flex search-bar me-lg-3 mb-2 mb-lg-0" role="search">
+          <input class="form-control rounded-start " type="search" placeholder="Search products">
+          <button class="btn btn-light rounded-end" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+
+        <div class="nav-icons d-flex align-items-center">
+          <a href="#" class="btn btn-link text-white me-2"><i class="bi bi-cart3 fs-5"></i></a>
+          <a href="#" class="btn btn-link text-white"><i class="bi bi-person-circle fs-5"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body>
+    <div class="container-fluid min-vh-100 p-4">
+
+        <!-- TOP HEADING -->
+        <div class="row mb-4">
+            <div class="col">
+                <h3 class="fw-bold text-center">Manage Address</h3>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT BELOW HEADING -->
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 mb-4">
+                <div class="d-flex flex-column gap-3">
+                   <a href ="account.html"><button class="btn btn-outline-dark fw-bold text-start">Personal Information</button></a>
+                    <a href ="myorder.html"><button class="btn btn-outline-dark fw-bold text-start">My Order</button></a>
+                    <a href ="address.html"><button class="btn btn-steel fw-bold text-start">Manage Address</button></a>
+                    <a href ="orderreturn.html"><button class="btn btn-outline-dark fw-bold text-start">Order Return</button></a>
+                    <a href ="logout.html"><button class="btn btn-outline-dark fw-bold text-start">Logout</button></a>
+
+                    <!-- Saved Addresses -->
+                    <div class="mt-4">
+                        <h6 class="fw-bold text">Save Address</h6>
+
+                        <div class="bg-light p-3 rounded shadow-sm mb-3 position-relative">
+                            <p class="mb-1 fw-bold">Vijay</p>
+                            <p class="mb-1">12 TH kk Street</p>
+                            <p class="mb-1">chennai ,600008</p>
+                            <div class="position-absolute top-0 end-0 p-2 d-flex gap-2">
+                                <span class="text-muted small"><i class="bi bi-pencil-square"></i> Edit</span>
+                                <span class="text-muted small"><i class="bi bi-x-circle"></i> Cancel</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-light p-3 rounded shadow-sm mb-3 position-relative">
+                            <p class="mb-1 fw-bold">Vijay</p>
+                            <p class="mb-1">12 TH kk Street</p>
+                            <p class="mb-1">chennai ,600008</p>
+                            <div class="position-absolute top-0 end-0 p-2 d-flex gap-2">
+                                <span class="text-muted small"><i class="bi bi-pencil-square"></i> Edit</span>
+                                <span class="text-muted small"><i class="bi bi-x-circle"></i> Cancel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form Content -->
+            <div class="col-md-9">
+                <form>
+                    <!-- First Name and Last Name (on same row) -->
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">First Name</label>
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+                    </div>
+
+                    <!-- Other Fields -->
+                    <div class="mb-3">
+                        <label class="form-label">Company NAME (OPTIONAL)</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Country</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Street Address</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">City</label>
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">State</label>
+                            <input type="text" class="form-control" placeholder="">
+                        </div>
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Zip Code</label>
+                        <input type="email" class="form-control" placeholder="">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Phone</label>
+                        <input type="email" class="form-control" placeholder="">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="">
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-flex gap-3">
+                        <button type="button" class="btn-item px-4">Add Address</button>
+                        <button type="button" class="btn-item px-4">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Address -->
+      <div class="col-md-3 mb-4">
+        <img src="Buildingimages\logo.jpg" alt="BuildMaadi Logo" style="height: 40px;">
+        <h5 class="mt-2">BuildMaadi</h5>
+        <p>
+          Gardens Lane, Hi-Tech City,<br>
+          Madhapur, Hyderabad-500081
+        </p>
+      </div>
+
+      <!-- Information Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">AI Estimator</a></li>
+        </ul>
+      </div>
+
+      <!-- Policy Links -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Policy</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- My Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">My Account</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">My order</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Contact With Us</h6>
+        <p><i class="fas fa-phone"></i> +91 9876543204</p>
+        <p><i class="fas fa-envelope"></i> Info@BuildMaadi.in</p>
+      </div>
+
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr class="my-3">
+
+    <!-- Payment Section -->
+    <div class="row align-items-center mb-3">
+      <div class="col-md-6">
+        <h6 class="fw-bold">Payment</h6>
+        <div class="payment-icons mt-2">
+          <img src="https://img.icons8.com/color/48/000000/google-pay-india.png" alt="GPay">
+          <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="MasterCard">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+          <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+          <img src="https://img.icons8.com/color/48/000000/rupay.png" alt="RuPay">
+          <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="ApplePay">
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 text-md-end text-center mt-4 mt-md-0">
+        <h6 class="fw-bold me-5">Follow Us on</h6>
+        <div class="social-icons mt-2">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+ 
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+
+</html>

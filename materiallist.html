@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive BuildMaadi Navbar</title>
+  <link rel="stylesheet" href="cssfiles/materiallist.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+<!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+   
+   
+</head>
+<body>
+
+<!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg top-navbar navbar-dark py-2">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="Buildingimages/logo.jpg" alt="Logo" height="30" class="me-2">
+      <strong>BuildMaadi</strong>
+    </a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Nav Links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link" href="material.html">Materials</a></li>
+        <li class="nav-item"><a class="nav-link" href="aiestimator.html">AI Estimator</a></li>
+        <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+      </ul>
+
+      <!-- Search + Icons -->
+      <div class="d-lg-flex align-items-center">
+        <form class="d-flex search-bar me-lg-3 mb-2 mb-lg-0" role="search">
+          <input class="form-control rounded-start " type="search" placeholder="Search products">
+          <button class="btn btn-light rounded-end" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+
+        <div class="nav-icons d-flex align-items-center">
+          <a href="#" class="btn btn-link text-white me-2"><i class="bi bi-cart3 fs-5"></i></a>
+          <a href="#" class="btn btn-link text-white"><i class="bi bi-person-circle fs-5"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+ <div class="container">
+        <h1 class="material-list-header">Materials List</h1>
+        <table class="table">
+        <thead>
+                <tr>
+                    <th scope="col">Materials</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Action</th>
+                </tr>
+                </thead>
+        
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="Buildingimages/cartimages/cart1.jpg" alt="Ultratech"
+                            class="material-img">
+                        Ultratech (50kg)
+                    </td>
+                    <td>₹ 330</td>
+                    <td>20 Bag</td>
+                    <td>₹ 6,600</td>
+                     <td><i class=" bi bi-trash"></i><br>
+                       <p class="delete-btn me-5">Delete</p>
+                       </td>
+                   
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Buildingimages/cartimages/cart2.jpg" alt="White Cement"
+                            class="material-img">
+                        White Cement(20kg)
+                    </td>
+                    <td>₹ 255</td>
+                    <td>20 Bag</td>
+                    <td>₹ 5,100</td>
+                    <td><i class=" bi bi-trash"></i><br>
+                       <p class="delete-btn me-5">Delete</p>
+                       </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Buildingimages/cartimages/cart3.jpg" alt="Steel" class="material-img">
+                        Stainless Steel TMT Bar, 10mm
+                    </td>
+                    <td>₹ 25,000</td>
+                    <td>2 Tonne</td>
+                    <td>₹ 50,000</td>
+                    <td><i class=" bi bi-trash"></i><br>
+                       <p class="delete-btn me-5">Delete</p>
+                       </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Buildingimages/cartimages/cart4.jpg" alt="Bricks" class="material-img">
+                        Red Bricks
+                    </td>
+                    <td>₹ 3,000</td>
+                    <td>5 Tonne</td>
+                    <td>₹ 15,000</td>
+                    <td><i class=" bi bi-trash"></i><br>
+                       <p class="delete-btn me-5">Delete</p>
+                       </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <img src="Buildingimages/cartimages/cart5.jpg" alt="Bricks" class="material-img">
+                        Red Bricks
+                    </td>
+                    <td>₹ 3,000</td>
+                    <td>5 Tonne</td>
+                    <td>₹ 15,000</td>
+                    <td><i class=" bi bi-trash"></i><br>
+                       <p class="delete-btn me-5">Delete</p>
+                       </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+<div class="container mt-3">
+  <div class="d-flex justify-content-between align-items-center">
+    <label class="fw-bold mb-0">Coupon Code</label>
+    <div class="text-end">
+      <input type="text" class="form-control form-control-sm rounded-pill mb-2" 
+             placeholder="Enter Code" style="width: 150px; display: inline-block;">
+      <br>
+      <button class="btn btn-primary btn-sm rounded-pill px-3" style="width: 150px;">Apply</button>
+    </div>
+  </div>
+</div>
+    
+    <hr>
+   <div class="container"> 
+    <div class="d-flex justify-content-between mb-2">
+      <span class="fw-bold">Coupon Discount</span>
+      <span class="fw-bold">5 %</span>
+    </div>
+    
+    <div class="d-flex justify-content-between mb-2">
+      <span class="fw-bold">Taxes</span>
+      <span class="fw-bold">₹ 4,472</span>
+    </div>
+    
+    <div class="d-flex justify-content-between mb-2">
+      <span class="fw-bold">Delivery Charges</span>
+      <span class="fw-bold">₹ 2000</span>
+    </div>
+    
+    <hr>
+    
+    <div class="d-flex justify-content-between mb-3 fs-5">
+      <span class="fw-bold">Total</span>
+      <span class="fw-bold">₹ 80,500</span>
+    </div>
+    
+    <a href ="orderdetails.html"><button class="btn-item rounded-pill w-100 py-1 fw-bold">Order Now</button></a>
+    
+  </div>
+  <!--footer-->
+  <footer class="footer mt-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Address -->
+      <div class="col-md-3 mb-4">
+        <img src="Buildingimages\logo.jpg" alt="BuildMaadi Logo" style="height: 40px;">
+        <h5 class="mt-2">BuildMaadi</h5>
+        <p>
+          Gardens Lane, Hi-Tech City,<br>
+          Madhapur, Hyderabad-500081
+        </p>
+      </div>
+
+      <!-- Information Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">AI Estimator</a></li>
+        </ul>
+      </div>
+
+      <!-- Policy Links -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Policy</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- My Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">My Account</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">My order</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Contact With Us</h6>
+        <p><i class="fas fa-phone"></i> +91 9876543204</p>
+        <p><i class="fas fa-envelope"></i> Info@BuildMaadi.in</p>
+      </div>
+
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr class="my-3">
+
+    <!-- Payment Section -->
+    <div class="row align-items-center mb-3">
+      <div class="col-md-6">
+        <h6 class="fw-bold">Payment</h6>
+        <div class="payment-icons mt-2">
+          <img src="https://img.icons8.com/color/48/000000/google-pay-india.png" alt="GPay">
+          <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="MasterCard">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+          <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+          <img src="https://img.icons8.com/color/48/000000/rupay.png" alt="RuPay">
+          <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="ApplePay">
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 text-md-end text-center mt-4 mt-md-0">
+        <h6 class="fw-bold me-5">Follow Us on</h6>
+        <div class="social-icons mt-2">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

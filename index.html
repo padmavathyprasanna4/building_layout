@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive BuildMaadi Navbar</title>
+  <link rel="stylesheet" href="cssfiles/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+<!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+
+</head>
+
+<body>
+
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg top-navbar navbar-dark py-2">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="Buildingimages\logo.jpg" alt="Logo" height="30" class="me-2">
+        <strong>BuildMaadi</strong>
+      </a>
+
+      <!-- Hamburger -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+        aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <!-- Nav Links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 gap-3">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="brand.html">Brands</a></li>
+          <li class="nav-item"><a class="nav-link" href="material.html">Materials</a></li>
+          <li class="nav-item"><a class="nav-link" href="aiestimator.html">AI Estimator</a></li>
+          <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+        </ul>
+
+        <!-- Search + Icons -->
+        <div class="d-lg-flex align-items-center">
+          <form class="d-flex search-bar me-lg-3 mb-2 mb-lg-0" role="search">
+            <input class="form-control rounded-start " type="search" placeholder="Search products">
+            <button class="btn btn-light rounded-end" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+
+          <div class="nav-icons d-flex align-items-center">
+            <a href="materiallist.html" class="btn btn-link text-white me-2"><i class="bi bi-cart3 fs-5"></i></a>
+            <a href="login.html" class="btn btn-link text-white"><i class="bi bi-person-circle fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Second Navbar -->
+  <div class="second-navbar py-2">
+    <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between px-3">
+      <!-- Location Input -->
+      <div class="d-flex align-items-center w-50 w-md-auto mb-2 mb-md-0">
+        <i class="bi bi-geo-alt-fill location-icon fs-5"></i>
+        <input type="text" class="form-control me-2" placeholder="Please Enter Your City Name" />
+        <button class="btn btn-dark">Search</button>
+      </div>
+
+    </form>
+
+
+      <!-- Right Buttons -->
+      <div class="d-flex align-items-center">
+        <button class="btn btn-outline-dark me-2"><i class="bi bi-crosshair"></i> Near Me</button>
+       <a href="trackorder.html"><button class="btn btn-outline-dark me-2"><i class="bi bi-truck"></i> Track Order</button></a>
+
+        <div class="dropdown text-end">
+    <!-- Three vertical dots icon -->
+    <button class="btn btn-light" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-three-dots-vertical"></i>
+    </button>
+
+    <!-- Dropdown Menu -->
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="account.html">Account</a></li>
+      <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+      <li><a class="dropdown-item" href="#">Help</a></li>
+    </ul>
+  </div>
+
+  
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-5">
+
+    <!-- TMT Steel Banner -->
+    <div class="tmt-banner mb-4">
+      <div class="col-md-8">
+        <h5>THE IMPORTANCE OF</h5>
+        <h2>CHOOSING THE RIGHT TMT STEEL BRAND</h2>
+        <h2>FOR YOUR DREAM PROJECT</h2>
+        <p style="color: #a6f5ec;">Building the future, one home at a time!</p>
+        <button class="learn-more-btn">Learn More</button>
+      </div>
+      <div class="col-md-4 text-end">
+        <img src="Buildingimages/homeimages/home1.jpg" alt="Steel Rods">
+        <!-- Use your image or host a similar steel rod image -->
+      </div>
+    </div>
+
+    <!-- Sale and EMI banners -->
+ <div class="container my-4">
+    <!-- Promotional Banners -->
+    <!-- Promotional Banners as Images -->
+<div class="row">
+  <div class="col-md-6 mb-5">
+    <img src="Buildingimages\homeimages\home2.jpg" alt="Limited Time Sale Banner" class="img-fluid">
+  </div>
+  <div class="col-md-6">
+    <img src="Buildingimages\homeimages\home3.jpg" alt="No Cost EMI Banner" class="img-fluid">
+  </div>
+</div>
+
+    <!-- Brands Section -->
+           <h2 class="text-start fw-bold">Brands</h2>
+<div class="container brand-section">
+    <div class="d-flex justify-content-center align-items-center mb-4 g-4">
+
+    </div>
+<!-- logo -->
+    <div class="row g-5">
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="card brand-card">
+          <img src="Buildingimages\homeimages\home4.jpg" alt="Ambuja Cement">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ms-5">
+        <div class="card brand-card bg-danger">
+          <img src="Buildingimages\homeimages\home9.jpg" alt="CenturyPly">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ms-5">
+        <div class="card brand-card">
+          <img src="Buildingimages\homeimages\home6.jpg" alt="Asian Paints">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ms-5">
+        <div class="card brand-card">
+          <img src="Buildingimages\homeimages\home5.jpg" alt="Godrej">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 ms-4">
+        <div class="card brand-card">
+          <img src="Buildingimages\homeimages\home7.jpg" alt="Green Panel">
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    </div>
+
+   
+    <section class="materials-section">
+      <div class="materials-header">
+        <h2 class="text-start fw-bold">Materials</h2>
+        <a href="#" class="view-all">View All</a>
+      </div>
+      <div class="materials-grid">
+        <div class="material-card">
+           <a href="cement.html" class="view-all"><img src="Buildingimages/homeimages/home10.jpg" alt="Cement"></a>
+          <p>Cement</p>
+        </div>
+
+        <div class="material-card">
+          <img src="Buildingimages/homeimages/home11.jpg" alt="Bricks">
+          <p>Bricks</p>
+        </div>
+        <div class="material-card">
+          <img src="Buildingimages/homeimages/home12.jpg" alt="Steel">
+          <p>Steel</p>
+        </div>
+      </div>
+    </section>
+    <section class="materials-section">
+      <div class="materials-header">
+      </div>
+      <div class="materials-grid">
+        <div class="material-card">
+          <img src="Buildingimages/homeimages/home13.jpg" alt="Cement">
+          <p>Cement</p>
+        </div>
+        <div class="material-card">
+          <img src="Buildingimages/homeimages/home14.jpg" alt="Bricks">
+          <p>Bricks</p>
+        </div>
+        <div class="material-card">
+          <img src="Buildingimages/homeimages/home15.jpg" alt="Steel">
+          <p>Steel</p>
+        </div>
+      </div>
+    </section>
+
+<!--ratings and testimonial-->
+    <h2 class=" fw-bold text-center text-primary mt-4">What client Say</h2>
+<section class="testimonial-section">
+  <div class="container">
+
+
+    <div class="row justify-content-center align-items-center">
+      <!-- Left Rating Section -->
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div class="rating-box mx-auto">
+          <div class="rating-value">5.0</div>
+          <div class="stars mb-2">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <p><strong>(67.7K Review)</strong></p>
+
+          <div class="rating-row">
+            <span>5★</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 100%;"></div>
+            </div>
+            <span>1000+</span>
+          </div>
+          <div class="rating-row">
+            <span>4★</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <span>99+</span>
+          </div>
+          <div class="rating-row">
+            <span>3★</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;"></div>
+            </div>
+            <span>23</span>
+          </div>
+          <div class="rating-row">
+            <span>2★</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 40%;"></div>
+            </div>
+            <span>15</span>
+          </div>
+          <div class="rating-row">
+            <span>1★</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 25%;"></div>
+            </div>
+            <span>3</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Carousel Section -->
+      <div class="col-lg-7">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="review-card">
+                <img src="Buildingimages\homeimages\home16.jpg" alt="Michael">
+                <h5>Michael</h5>
+                <p>Portals like Buildmaadi which I am using are being used by many more people like me. This has helped us to get all construction needs under one roof.</p>
+              <br></div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="review-card">
+                <img src="Buildingimages\homeimages\home17.jpg" alt="Sophia">
+                <h5>Sophia</h5><br>
+                <p>This site made it so simple to find and order all our construction materials easily and efficiently.</p>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <div class="review-card">
+                <img src="Buildingimages\homeimages\home18.jpg" alt="John">
+                <h5>John</h5><br>
+                <p>Very helpful platform — everything I needed was available in one place with fast delivery and good service.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container py-5">
+
+  <!-- Row 1: Image Right, Text Left -->
+  <div class="row align-items-center feature-row">
+    <div class="col-md-6 text-center">
+      <img src="Buildingimages/homeimages/home19.jpg" alt="Feature 1" class="feature-icon">
+    </div>
+    <div class="col-md-6 feature-text text-center">
+      <h5>Fast & Secure Transactions</h5>
+      <p>Enjoy hassle-free secure online payments anytime.</p>
+    </div>
+  </div>
+
+  <!-- Row 2: Text Right, Image Left -->
+  <div class="row align-items-center feature-row">
+    <div class="col-md-6 feature-text text-center">
+      <h5>Return Within 7 Days</h5>
+      <p>We make returns quick and easy for you.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="Buildingimages/homeimages/home20.jpg" alt="Feature 2" class="feature-icon">
+    </div>
+  </div>
+
+  <!-- Row 3: Image Right, Text Left -->
+  <div class="row align-items-center feature-row">
+    <div class="col-md-6 text-center">
+      <img src="Buildingimages/homeimages/home21.jpg" alt="Feature 3" class="feature-icon">
+    </div>
+    <div class="col-md-6 feature-text text-center">
+      <h5>24/7 Customer Support</h5>
+      <p>Our friendly team is here to help you anytime.</p>
+    </div>
+  </div>
+
+  <!-- Row 4: Text Right, Image Left -->
+  <div class="row align-items-center feature-row">
+    <div class="col-md-6 feature-text text-center">
+      <h5>Best Price Guarantee</h5>
+      <p>Get the best deals and unbeatable prices always.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="Buildingimages/homeimages/home22.jpg" alt="Feature 4" class="feature-icon">
+    </div>
+  </div>
+
+  <!-- Row 5: Image Right, Text Left -->
+  <div class="row align-items-center feature-row">
+    <div class="col-md-6 text-center">
+      <img src="Buildingimages/homeimages/home23.jpg" alt="Feature 5" class="feature-icon">
+    </div>
+    <div class="col-md-6 feature-text text-center">
+      <h5>Quality You Can Trust</h5>
+      <p>We deliver top-quality products for your satisfaction.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Address -->
+      <div class="col-md-3 mb-4">
+        <img src="Buildingimages\logo.jpg" alt="BuildMaadi Logo" style="height: 40px;">
+        <h5 class="mt-2">BuildMaadi</h5>
+        <p>
+          Gardens Lane, Hi-Tech City,<br>
+          Madhapur, Hyderabad-500081
+        </p>
+      </div>
+
+      <!-- Information Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">AI Estimator</a></li>
+        </ul>
+      </div>
+
+      <!-- Policy Links -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Policy</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- My Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">My Account</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">My order</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Contact With Us</h6>
+        <p><i class="fas fa-phone"></i> +91 9876543204</p>
+        <p><i class="fas fa-envelope"></i> Info@BuildMaadi.in</p>
+      </div>
+
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr class="my-3">
+
+    <!-- Payment Section -->
+    <div class="row align-items-center mb-3">
+      <div class="col-md-6">
+        <h6 class="fw-bold">Payment</h6>
+        <div class="payment-icons mt-2">
+          <img src="https://img.icons8.com/color/48/000000/google-pay-india.png" alt="GPay">
+          <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="MasterCard">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+          <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+          <img src="https://img.icons8.com/color/48/000000/rupay.png" alt="RuPay">
+          <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="ApplePay">
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 text-md-end text-center mt-4 mt-md-0">
+        <h6 class="fw-bold me-5">Follow Us on</h6>
+        <div class="social-icons mt-2">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

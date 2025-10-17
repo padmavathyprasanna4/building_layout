@@ -1,0 +1,197 @@
+ body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.top-navbar {
+    background-color: #1f3c5d;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: #00bcd4 !important;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.location-icon {
+    color: red;
+    margin-right: 8px;
+}
+
+.navbar-nav {
+    padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .top-navbar .search-bar,
+    .top-navbar .nav-icons {
+        margin-top: 10px;
+    }
+}
+ 
+.breadcrumb {
+      background: none;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+
+    .breadcrumb a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    .track-title {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2rem;
+      color: #090b0e;
+      margin-bottom: 30px;
+    }
+
+    .order-status {
+      text-align: right;
+    }
+
+    /* Timeline container */
+    .timeline-container {
+      border: 1px solid #0a0a0a;
+      border-radius: 10px;
+      background: #fff;
+      padding: 30px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Horizontal line (background gray) */
+    .timeline-line {
+      position: absolute;
+      top: 48px;
+      left: 60px;
+      right: 60px;
+      height: 4px;
+      background-color: #ddd;
+      z-index: 1;
+    }
+
+    /* Blue line for completed steps */
+    .timeline-line-progress {
+      position: absolute;
+      top: 48px;
+      left: 60px;
+      height: 4px;
+      background-color: #007bff;
+      z-index: 2;
+      width: 65%; /* adjust this percentage to mark progress */
+    }
+
+    /* Steps */
+    .timeline-steps {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      z-index: 3;
+    }
+
+    .step {
+      text-align: center;
+      flex: 1;
+      position: relative;
+    }
+
+    .icon-circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #007bff;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 10px;
+      font-size: 22px;
+      z-index: 3;
+    }
+
+    .icon-dark {
+      background-color: #343a40;
+    }
+
+    .step p {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .date {
+      color: #555;
+      font-size: 13px;
+    }
+
+    .checkmark {
+      color: #007bff;
+      font-size: 14px;
+    }
+
+    @media (max-width: 767px) {
+      .timeline-container {
+        padding: 20px;
+      }
+
+      .timeline-line,
+      .timeline-line-progress {
+        display: none;
+      }
+
+      .timeline-steps {
+        flex-direction: column;
+      }
+
+      .step {
+        margin-bottom: 20px;
+      }
+    }
+
+    /*Footer*/
+    .footer {
+      background-color: #062940;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .payment-icons img {
+      height: 32px;
+      margin-right: 10px;
+    }
+    .footer hr {
+      border-top: 1px solid #ccc;
+      opacity: 0.2;
+    }
+    .social-icons i {
+      font-size: 20px;
+      margin-right: 15px;
+      color: white;
+    }

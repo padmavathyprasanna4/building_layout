@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cement Product Page</title>
+    <link rel="stylesheet" href="cssfiles/ordernow.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome (for cart icon) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons (Optional for better visuals) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg top-navbar navbar-dark py-2">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="Buildingimages/logo.jpg" alt="Logo" height="30" class="me-2">
+      <strong>BuildMaadi</strong>
+    </a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Nav Links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link" href="material.html">Materials</a></li>
+        <li class="nav-item"><a class="nav-link" href="aiestimator.html">AI Estimator</a></li>
+        <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+      </ul>
+
+      <!-- Search + Icons -->
+      <div class="d-lg-flex align-items-center">
+        <form class="d-flex search-bar me-lg-3 mb-2 mb-lg-0" role="search">
+          <input class="form-control rounded-start " type="search" placeholder="Search products">
+          <button class="btn btn-light rounded-end" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+
+        <div class="nav-icons d-flex align-items-center">
+          <a href="#" class="btn btn-link text-white me-2"><i class="bi bi-cart3 fs-5"></i></a>
+          <a href="#" class="btn btn-link text-white"><i class="bi bi-person-circle fs-5"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    
+    <div class="container py-5">
+        <div class="row">
+            <!-- Left Side: Product Image -->
+            <div class="col-md-6">
+                <img src="Buildingimages/cementimages/ultratech.jpg" alt="Cement Bag" class="product-image" />
+
+                <!-- Small Images -->
+                <div class="small-images d-flex mt-3">
+                    <img src="Buildingimages/cementimages/cement10.jpg" alt="Small Image 1" />
+                    <img src="Buildingimages/cementimages/cement12.jpg" alt="Small Image 2" />
+                </div>
+            </div>
+
+            <!-- Right Side: Product Info -->
+            <div class="col-md-6">
+                <h4>50 Kg Ultratech Cement Bag, Grade 43</h4>
+                <p><strong>One Bag</strong> ₹ 330/Bag</p>
+                <div class="rating mb-3">
+                    <span>⭐⭐⭐⭐⭐</span> <strong>5.0</strong>
+                </div>
+                <h5 class="text-danger">₹ 3300/Bag</h5>
+
+                <!-- Weight Selection -->
+                <div class="mb-3">
+                    <button class="btn btn-outline-secondary me-2">50Kg</button>
+                    <button class="btn btn-outline-secondary">20Kg</button>
+                </div>
+
+                <!-- Quantity Selector -->
+                <div class="d-flex align-items-center mb-4">
+                    <button class="btn btn-danger me-3">-</button>
+                    <input type="number" value="10" class="form-control w-25 text-center" readonly />
+                    <button class="btn btn-danger ms-3">+</button>
+                </div>
+
+                <!-- Product Details Aligned -->
+                <div class="mb-4">
+                    <div class="product-detail-row">
+                        <strong>Packaging Size</strong>
+                        <span>50 Kg</span>
+                    </div>
+                    <div class="product-detail-row">
+                        <strong>Cement Grade</strong>
+                        <span>Grade 43</span>
+                    </div>
+                    <div class="product-detail-row">
+                        <strong>Packaging Type</strong>
+                        <span>Bag</span>
+                    </div>
+                    <div class="product-detail-row">
+                        <strong>Brand</strong>
+                        <span>Ultratech</span>
+                    </div>
+                    <div class="product-detail-row">
+                        <strong>Form</strong>
+                        <span>Powder</span>
+                    </div>
+                </div>
+                <p class="mt-4 text-muted">
+                    Traders specialize in high-quality construction materials, including Concrete Paver Blocks,
+                    Mild Steel Angles, MS Rectangular Pipes, Mild Steel Binding Wire, MS Round Pipes, and Concrete
+                    Hollow Blocks.
+                </p>
+                <!-- Action Buttons -->
+                <div class="d-flex">
+                    <button class="btn me-3">Add to Cart</button>
+                    <button class="btn">Order Now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+   <!--Find related categories Other Brand   -->
+   
+ <!-- Product Section -->
+  <div class="container my-5">
+    <h5 class="mb-4 fw-bold">Find related categories Other Brand</h5>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+
+      <!-- Cement Card 1 -->
+      <div class="col">
+        <div class="card text-center shadow-sm">
+          <img src="Buildingimages\cementimages\acc.jpg" class="card-img-top" alt="ACC Cement">
+          <div class="card-body">
+            <h6 class="card-title">Ace Cement</h6>
+            <p class="star-rating mb-1">5.0 ★★★★★</p>
+            <p class="small">Minimum 10 Bag</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <strong>₹ 340 / Bag</strong>
+              <a href="#" class="btn btn-primary btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cement Card 2 -->
+      <div class="col">
+        <div class="card text-center shadow-sm">
+          <img src="Buildingimages\cementimages\ramco.jpg" class="card-img-top" alt="Ramco Cement">
+          <div class="card-body">
+            <h6 class="card-title">Ramco Cement</h6>
+            <p class="star-rating mb-1">5.0 ★★★★★</p>
+            <p class="small">Minimum 20 Bag</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <strong>₹ 330 / Bag</strong>
+              <a href="#" class="btn btn-primary btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cement Card 3 -->
+      <div class="col">
+        <div class="card text-center shadow-sm">
+          <img src="Buildingimages\cementimages\binani.jpg" class="card-img-top" alt="Binani Cement">
+          <div class="card-body">
+            <h6 class="card-title">Binani Cement</h6>
+            <p class="star-rating mb-1">5.0 ★★★★★</p>
+            <p class="small">Minimum 20 Bag</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <strong>₹ 305 / Bag</strong>
+              <a href="#" class="btn btn-primary btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cement Card 4 -->
+      <div class="col">
+        <div class="card text-center shadow-sm">
+          <img src="Buildingimages\cementimages\ambuja.jpg" class="card-img-top" alt="Ambuja Cement">
+          <div class="card-body">
+            <h6 class="card-title">Ambuja Cement</h6>
+            <p class="star-rating mb-1">5.0 ★★★★★</p>
+            <p class="small">Minimum 10 Bag</p>
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <strong>₹ 340 / Bag</strong>
+              <a href="#" class="btn btn-primary btn-sm">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Review Section -->
+  <div class="container mb-5">
+    <div class="review-box">
+      <h5 class="fw-bold mb-4">Review</h5>
+      <div class="row align-items-center">
+
+        <!-- Rating Summary -->
+        <div class="col-md-3">
+          <div class="rating-summary-box text-center">
+            <h1 class="display-4 mb-0">5.0</h1>
+            <p class="star-rating fs-4 mb-1">★★★★★</p>
+            <p class="text-muted mb-0">(67.7K Review)</p>
+          </div>
+        </div>
+
+        <!-- Star Rating Bars -->
+        <div class="col-md-9">
+          <div class="mb-2 d-flex align-items-center">
+            <div class="me-2">5 ★</div>
+            <div class="flex-grow-1 bar-container">
+              <div class="bar-fill" style="width: 90%;"></div>
+            </div>
+            <div class="ms-2">1000+</div>
+          </div>
+          <div class="mb-2 d-flex align-items-center">
+            <div class="me-2">4 ★</div>
+            <div class="flex-grow-1 bar-container">
+              <div class="bar-fill" style="width: 60%;"></div>
+            </div>
+            <div class="ms-2">99+</div>
+          </div>
+          <div class="mb-2 d-flex align-items-center">
+            <div class="me-2">3 ★</div>
+            <div class="flex-grow-1 bar-container">
+              <div class="bar-fill" style="width: 40%;"></div>
+            </div>
+            <div class="ms-2">23</div>
+          </div>
+          <div class="mb-2 d-flex align-items-center">
+            <div class="me-2">2 ★</div>
+            <div class="flex-grow-1 bar-container">
+              <div class="bar-fill" style="width: 30%;"></div>
+            </div>
+            <div class="ms-2">15</div>
+          </div>
+          <div class="mb-2 d-flex align-items-center">
+            <div class="me-2">1 ★</div>
+            <div class="flex-grow-1 bar-container">
+              <div class="bar-fill" style="width: 10%;"></div>
+            </div>
+            <div class="ms-2">3</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- User Testimonial -->
+  <!-- User Testimonial -->
+<div class="container mb-5">
+  <div class="card p-3 shadow-sm">
+    <div class="d-flex align-items-start">
+      <img src="Buildingimages\cementimages\forum16.png" class="rounded-circle me-3 user-thumb" alt="User">
+      <div>
+        <h6 class="mb-1">Robert <span class="star-rating">5.0 ★★★★★</span></h6>
+        <p class="mb-">
+          BuildMaadi is an Excellent Platform For all Types of Building Material and Construction Products like Ultratech Cement, etc. It helps us to procure building materials during construction period at best price.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- ABout the company -->
+
+    <div class="container py-5">
+    <h3 class="text-center heading mb-5">About the Company</h3>
+    <div class="row text-center">
+        <!-- GST Registration -->
+        <div class="col-md-4 info-section">
+            <i class="bi bi-receipt"></i>
+            <div class="info-text mt-2">GST Registration Date<br>22-09-2022</div>
+        </div>
+
+        <!-- Legal Status -->
+        <div class="col-md-4 info-section">
+            <i class="bi bi-people-fill"></i>
+            <div class="info-text mt-2">Legal Status of Firm<br>Proprietorship</div>
+        </div>
+
+        <!-- Nature of Business -->
+        <div class="col-md-4 info-section">
+            <i class="bi bi-bar-chart-line-fill"></i>
+            <div class="info-text mt-2">Nature of Business<br>Trader – Wholesaler/Distributor</div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+  <footer class="footer mt-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Address -->
+      <div class="col-md-3 mb-4">
+        <img src="Buildingimages\logo.jpg" alt="BuildMaadi Logo" style="height: 40px;">
+        <h5 class="mt-2">BuildMaadi</h5>
+        <p>
+          Gardens Lane, Hi-Tech City,<br>
+          Madhapur, Hyderabad-500081
+        </p>
+      </div>
+
+      <!-- Information Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">AI Estimator</a></li>
+        </ul>
+      </div>
+
+      <!-- Policy Links -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Policy</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- My Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">My Account</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">My order</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Contact With Us</h6>
+        <p><i class="fas fa-phone"></i> +91 9876543204</p>
+        <p><i class="fas fa-envelope"></i> Info@BuildMaadi.in</p>
+      </div>
+
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr class="my-3">
+
+    <!-- Payment Section -->
+    <div class="row align-items-center mb-3">
+      <div class="col-md-6">
+        <h6 class="fw-bold">Payment</h6>
+        <div class="payment-icons mt-2">
+          <img src="https://img.icons8.com/color/48/000000/google-pay-india.png" alt="GPay">
+          <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="MasterCard">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+          <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+          <img src="https://img.icons8.com/color/48/000000/rupay.png" alt="RuPay">
+          <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="ApplePay">
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 text-md-end text-center mt-4 mt-md-0">
+        <h6 class="fw-bold me-5">Follow Us on</h6>
+        <div class="social-icons mt-2">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

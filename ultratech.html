@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive BuildMaadi Navbar</title>
+  <link rel="stylesheet" href="cssfiles/ultratech.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+ <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+
+   
+</head>
+<body>
+
+<!-- Top Navbar -->
+<nav class="navbar navbar-expand-lg top-navbar navbar-dark py-2">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="Buildingimages/logo.jpg" alt="Logo" height="30" class="me-2">
+      <strong>BuildMaadi</strong>
+    </a>
+
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Nav Links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 gap-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link" href="material.html">Materials</a></li>
+        <li class="nav-item"><a class="nav-link" href="aiestimator.html">AI Estimator</a></li>
+        <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+      </ul>
+
+      <!-- Search + Icons -->
+      <div class="d-lg-flex align-items-center">
+        <form class="d-flex search-bar me-lg-3 mb-2 mb-lg-0" role="search">
+          <input class="form-control rounded-start " type="search" placeholder="Search products">
+          <button class="btn btn-light rounded-end" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+
+        <div class="nav-icons d-flex align-items-center">
+          <a href="#" class="btn btn-link text-white me-2"><i class="bi bi-cart3 fs-5"></i></a>
+          <a href="#" class="btn btn-link text-white"><i class="bi bi-person-circle fs-5"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid mt-4">
+  <div class="breadcrumb-custom">
+    <span>Materials &lt; Cement</span>
+  </div>
+
+  <div class="row">
+    <!-- Sidebars -->
+    <div class="col-md-3">
+      <!-- Sidebar 1 -->
+      <div class="sidebar">
+        <a href="#" class="active">Ultratech Cement</a>
+        <a href="#">Acc Cement</a>
+        <a href="#">Ambuja Cement</a>
+        <a href="#">JK Cement</a>
+        <a href="#">Ramco Cement</a>
+        <a href="#">Binani Cement</a>
+        <a href="#">Shree Cement</a>
+        <a href="#">JSW Cement</a>
+        <a href="#">MP Birla Cement</a>
+      </div>
+
+      <!-- Sidebar 2 -->
+      <div class="sidebar">
+        <a href="#" class="active">TMT Bars</a>
+        <a href="#">JSW TMT</a>
+        <a href="#">Tata Tiscon</a>
+        <a href="#">Kamdhenu</a>
+        <a href="#">SRMB</a>
+        <a href="#">Vizag Steel</a>
+      </div>
+
+      <!-- Sidebar 3 -->
+      <div class="sidebar">
+        <a href="#" class="active">Plumbing</a>
+        <a href="#">CPVC Pipes</a>
+        <a href="#">PVC Pipes</a>
+        <a href="#">Fittings</a>
+        <a href="#">Valves</a>
+      </div>
+
+      <!-- Sidebar 4 -->
+      <div class="sidebar">
+        <a href="#" class="active">Paints</a>
+        <a href="#">Asian Paints</a>
+        <a href="#">Berger Paints</a>
+        <a href="#">Nerolac</a>
+        <a href="#">Dulux</a>
+      </div>
+    </div>
+    <!-- Product Grid -->
+    <div class="col-md-9">
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement1.jpg" alt="Ultratech Cement">
+            <div class="product-title">Ultratech Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 10 Bag</div>
+            <div class="price">₹ 330 / Bag</div>
+            <a href = "ordernow.html"><button class="btn-order">Order Now</button></a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement2.jpg" alt="Ultratech Weather Plus Cement">
+            <div class="product-title">Ultratech Weather Plus Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 10 Bag</div>
+            <div class="price">₹ 305 / Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement3.jpg" alt="53 Grade UltraTech OPC">
+            <div class="product-title">53 Grade UltraTech OPC</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 10 Bag</div>
+            <div class="price">₹ 395 / Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement4.jpg" alt="Ultratech Cement 43 Grade">
+            <div class="product-title">Ultratech Cement 43 Grade</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 375 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement5.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement6.jpg" alt="25 Kg The Ultratech Cement">
+            <div class="product-title">25 Kg The Ultratech Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 305 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+        
+        <!-- Card 7 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement7.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement8.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+
+        
+        <!-- Card 9 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement9.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+
+        
+        <!-- Card 10 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement10.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class=" btn-order">Order Now</button>
+          </div>
+        </div>
+        
+        <!-- Card 11 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement11.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+        
+        <!-- Card 12 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="Buildingimages/cementimages/cement12.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+        
+        <!-- Card 13 -->
+        <div class="col-md-4">
+          <div class="product-card mb-5">
+            <img src="Buildingimages/cementimages/cement13.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+        
+        <!-- Card 14 -->
+        <div class="col-md-4">
+          <div class="product-card mb-5">
+            <img src="Buildingimages/cementimages/cement14.jpg" alt="Basekrete HS2 Mortar Cement">
+            <div class="product-title">Basekrete HS2 Mortar Cement</div>
+            <div class="rating">5.0 ⭐⭐⭐⭐⭐</div>
+            <div class="small text-muted">Minimum 20 Bag</div>
+            <div class="price">₹ 470 /Bag</div>
+            <button class="btn-order">Order Now</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Address -->
+      <div class="col-md-3 mb-4">
+        <img src="Buildingimages\logo.jpg" alt="BuildMaadi Logo" style="height: 40px;">
+        <h5 class="mt-2">BuildMaadi</h5>
+        <p>
+          Gardens Lane, Hi-Tech City,<br>
+          Madhapur, Hyderabad-500081
+        </p>
+      </div>
+
+      <!-- Information Links -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">AI Estimator</a></li>
+        </ul>
+      </div>
+
+      <!-- Policy Links -->
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Policy</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- My Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">My Account</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">My order</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">Contact With Us</h6>
+        <p><i class="fas fa-phone"></i> +91 9876543204</p>
+        <p><i class="fas fa-envelope"></i> Info@BuildMaadi.in</p>
+      </div>
+
+    </div>
+
+    <!-- Horizontal Line -->
+    <hr class="my-3">
+
+    <!-- Payment Section -->
+    <div class="row align-items-center mb-3">
+      <div class="col-md-6">
+        <h6 class="fw-bold">Payment</h6>
+        <div class="payment-icons mt-2">
+          <img src="https://img.icons8.com/color/48/000000/google-pay-india.png" alt="GPay">
+          <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="MasterCard">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+          <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+          <img src="https://img.icons8.com/color/48/000000/rupay.png" alt="RuPay">
+          <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="ApplePay">
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6 text-md-end text-center mt-4 mt-md-0">
+        <h6 class="fw-bold me-5">Follow Us on</h6>
+        <div class="social-icons mt-2">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+ 

@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.top-navbar {
+    background-color: #1f3c5d;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: #00bcd4 !important;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.location-icon {
+    color: red;
+    margin-right: 8px;
+}
+
+.navbar-nav {
+    padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .top-navbar .search-bar,
+    .top-navbar .nav-icons {
+        margin-top: 10px;
+    }
+}
+   .track-container {
+      max-width: 700px;
+      margin: 80px auto;
+      text-align: center;
+    }
+   
+    .track-container p {
+      color: #0b0202!important;
+      margin-bottom: 40px;
+    }
+    label {
+      font-weight: 600;
+      text-align: left;
+      display: block;
+    }
+    .btn-track {
+      background-color: #082647!important;
+      color: #fff!important;
+      border-radius: 25px;
+      padding: 8px 30px!important;
+      font-weight: 600;
+      border: none;
+      transition: background-color 0.3s;
+    }
+    .form-control{
+        border: solid 1px black!important;
+    }
+
+    /*Footer*/
+    .footer {
+      background-color: #062940;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .payment-icons img {
+      height: 32px;
+      margin-right: 10px;
+    }
+    .footer hr {
+      border-top: 1px solid #ccc;
+      opacity: 0.2;
+    }
+    .social-icons i {
+      font-size: 20px;
+      margin-right: 15px;
+      color: white;
+    }
